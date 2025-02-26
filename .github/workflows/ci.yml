@@ -4,22 +4,22 @@ on:
   push:
     branches: [main, develop]
     paths-ignore:
-      - "**.md"
-      - ".github/**/*.md"
-      - "docs/**"
+      - '**.md'
+      - '.github/**/*.md'
+      - 'docs/**'
   pull_request:
     branches: [main, develop]
     paths-ignore:
-      - "**.md"
-      - ".github/**/*.md"
-      - "docs/**"
+      - '**.md'
+      - '.github/**/*.md'
+      - 'docs/**'
   schedule:
-    - cron: "0 0 * * 0"
+    - cron: '0 0 * * 0'
 
 env:
-  NODE_VERSION: "20.x"
-  HUSKY: "0"
-  NEXT_TELEMETRY_DISABLED: "1"
+  NODE_VERSION: '20.x'
+  HUSKY: '0'
+  NEXT_TELEMETRY_DISABLED: '1'
 
 jobs:
   quality:
