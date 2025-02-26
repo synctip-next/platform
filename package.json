@@ -10,8 +10,10 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:ci": "jest --ci",
+    "test:coverage": "jest --coverage",
     "format": "prettier --write .",
-    "format:check": "prettier --check \"**/*.{ts,tsx,json}\""
+    "format:check": "prettier --check \"**/*.{ts,tsx,json}\"",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "next": "15.1.7",
