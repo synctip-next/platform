@@ -1,11 +1,11 @@
-import React from "react";
-import type { Metadata } from "next";
-import "./globals.css";
+import React from 'react';
+import type { Metadata } from 'next';
+import './globals.css';
 
 export const metadata: Metadata = {
-  title: "Synctip",
+  title: 'Synctip',
   description:
-    "Transparency for employees, efficiency for managers, insights for owners.",
+    'Transparency for employees, efficiency for managers, insights for owners.',
 };
 
 const RootLayout = ({
