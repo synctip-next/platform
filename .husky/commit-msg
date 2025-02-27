@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+if [ -f .git/COMMIT_EDITMSG ]; then
+  npx --no -- commitlint --edit .git/COMMIT_EDITMSG
+fi

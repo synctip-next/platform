@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+# Skip in CI environment
+if [ -z "$CI" ]; then
+  npx lint-staged
+fi
